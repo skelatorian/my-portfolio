@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background: #585858;
+    height: 80px;
+    width: 100%;
+    
+}
+label.logo{
+     color: #585858; 
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    background-color: #80ced6;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+
+nav ul li a{
+    color:#80ced6;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+.content{
+    padding-top:100px;
+    background-image: url("./abstract-graphic-design-vector-white-wallpaper.jpg");
+    background-attachment: fixed;
+    background-size:100%;
+    background-repeat: no-repeat;
+    min-height:325px;
+    position: relative; 
+    
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #80ced6;
+    color:#585858;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 45px;
+  }
+
+
+  .side{
+    padding-left: 15px;
+    font-size: 300%;
+  }
+
+  /* .about-me p {
+    align-items: flex-start;
+    padding-left: -1px;
+    font-stretch: expanded;
+  } */
+
+  section {
+    padding: 100px;
+  }
+  
+  * {
+  box-sizing: border-box;
+  }
+  
+    /* .float-container {
+    border: 3px transparent;
+    padding: 50px;
+    padding-top: 5px;
+  }  */
+  
+   .float-child {
+    float: left; 
+    padding: 100px; 
+    padding-top: 15px;
+     margin: 0% -66px; 
+     font-size: 10px;
+}  
+
+
+
+  /* .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  } */
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* .sentence p::before{
+    content: "";
+    height: 150px;
+    width:4px;
+    background: red;
+    float: left;
+    margin-right: 15px;
+  } */
+
+/* h1{
+     
+    padding-top: 35px;    
+} */
+
+
+
+.row {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img {
+    height: 50%;
+    margin: 10px;
+    box-shadow: 10px 14px 20px 0px rgba(226,204,189,1);
+  }
+
+  .img-1{
+    background: url('https://images.unsplash.com/photo-1422205512921-12dac7b3b603?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2255&q=80') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .img-2{
+    background: url('https://images.unsplash.com/photo-1528696892704-5e1122852276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+  .img-3{
+    background: url('https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .img-4 {
+    background: url('https://images.unsplash.com/photo-1563305145-b64e0c2184aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+
+  @media screen and (min-width: 800px) {
+    .row{
+      height: 600px; 
+    }
+    
+    .img{
+      height: 50%;  
+    }
+    
+    .img-1,
+    .img-4 {
+      width: 24%;
+    }
+    .img-2,
+    .img-3 {
+      width: 70%;
+    }
+  }
+
+  .text{
+    /* position: absolute; */
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
